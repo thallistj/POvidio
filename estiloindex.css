@@ -1,0 +1,138 @@
+*{margin: 0;
+padding: 0;}
+
+.logocss{
+    width: 15%;
+}
+
+header,ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    font-family: ;
+    font-size: 1.2em;
+}
+
+li{
+    color: #E0392C;
+}
+
+header{
+background-color: whitesmoke;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.485);
+}
+
+article{
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+    background-color: whitesmoke;
+    padding: 100px;
+    margin-bottom: 50px;
+}
+
+.historia{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.historia>h1,p{
+    margin-bottom: 20px;
+}
+
+ul>a{
+    text-decoration: none;
+    
+}
+
+.imagemRestaurante{
+    display: flex;
+    justify-content: flex-end;
+        
+}
+
+
+.conteudo1{
+    display: flex;
+    margin-top:5px;
+    justify-content:flex-end;
+    padding: 100px;
+    background-color: #BC8462;
+    margin-bottom: 50px;
+
+}
+
+.pedido{
+    font-size: 2em;
+    width: 30%;
+    height: 40vh;
+    color: #E0392C;
+    text-align: justify;
+    margin-top:60px;
+
+
+}
+
+
+button{
+padding: 15px;
+border-radius: 5px;
+border: none;
+background-color: rgba(255, 0, 0, 0.525);
+cursor: pointer;
+color: white;
+
+}
+
+.conteudo2{
+    height: 100vh;
+    background-color: #BC8462;
+    padding: ;
+}
+
+.fotos{
+
+padding: 50px;
+text-align: center;
+}
+
+.fotos>img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+
+footer{
+text-align: center;
+padding: 50px;
+}
+footer>h1{
+    margin-bottom: 20px;
+}
+
+.fotosfooter{
+    display: flex;
+    }
+    
+    .insta{
+        width: 4%;
+        margin-right: 15px;
+    }
+    
+    .zap{
+    width: 3%;
+    height: 10%;
+    margin-bottom: 9px;
+    }
+    
+
+    /*pseudoclasses */
+
+    ul>a:hover{
+        background-color: #bc846266;
+        padding: 10px;
+        transition: 0.8s;
+        border-radius: 5px;
+    }
