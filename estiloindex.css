@@ -2,7 +2,7 @@
 padding: 0;}
 
 .logocss{
-    width: 15%;
+    width: 10%;
 }
 
 header,ul{
@@ -87,11 +87,11 @@ color: white;
 }
 
 .conteudo2{
-    height: 100vh;
+    
     background-color: #BC8462;
-    padding: ;
+    padding: 150px;
+    display: flex;
 }
-
 .fotos{
 
 padding: 50px;
@@ -99,7 +99,8 @@ text-align: center;
 }
 
 .fotos>img{
-    width: 25%;
+    width: 95%;
+    height: 40vh;
     border-radius: 50%;
 }
 

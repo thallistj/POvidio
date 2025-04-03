@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe conosco</title>
+    <link rel="stylesheet" href="estiloindex.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="">
+
+    <style>
+        main>h1 {
+            padding-bottom: 20px;
+        }
+
+        main {
+            margin: auto;
+            width: 40%;
+            padding: 30px;
+            margin-top: 150px;
+            color: #E0392C;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 1.3em;
+            line-height: 1.5em;
+            height: 60vh;
+        }
+
+        .dados {
+
+            background-color: #BC8462;
+            height: 150vh;
+        }
+
+        .cadastro1 {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            margin: auto;
+            padding-top: 150px;
+            text-align: center;
+
+        }
+
+        .cadastro1>input {
+            margin: 5px;
+        }
+
+        .cadastro2 {
+            text-align: center;
+        }
+
+        .cadastro2>p {
+            padding: 10px;
+        }
+
+        #descricao {
+            width: 400px;
+            height: 250px;
+            margin-right: 50px;
+            text-align: justify;
+        }
+
+        .botoes{
+            padding: 50px;
+            
+        }
+        #apagar{
+            background-color: rgb(184, 24, 24);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+            border: none;
+            cursor: pointer;
+            color: white;
+            margin-left: 10px;
+        }
+
+        #enviar{
+            background-color: rgb(22, 161, 22);
+            border: none;
+            padding: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            margin-right: 10px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logocss" src="logo bottotine editado.png" alt="Restaurante logo">
+
+        <nav>
+            <ul type="none">
+                <a href="index.html">
+                    <li>Nossos pratos</li>
+                </a>
+                <a href="#">
+                    <li>Sobre nós</li>
+                </a>
+
+                <a href="trabalheconosco.html">
+                    <li>Trabalhe conosco</li>
+                </a>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Trabalhe conosco</h1>
+        <p>Se você é apaixonado pela culinária italiana e busca um ambiente acolhedor
+            e dinâmico para crescer profissionalmente, nosso restaurante é o lugar certo para você!
+            Estamos sempre em busca de talentos dedicados para proporcionar experiências
+            inesquecíveis aos nossos clientes.
+            <br>
+            Venha fazer parte da nossa família e compartilhar o verdadeiro sabor da Itália!
+        </p>
+
+    </main>
+
+    <section class="dados">
+        <form action="formulario.php">
+            <div class="cadastro1">
+                <h1>Preencha seus dados</h1>
+
+                <input placeholder="Nome completo" type="text" name="nome" id="">
+                <input type="date" name="nascimento" id="" placeholder="Data de nascimento">
+                <input type="email" name="email" id="email" placeholder="Email para contato">
+                <input type="text" placeholder="Telefone" name="telefone">
+                <br> <br>
+                <div>
+
+                    <p>Possui experiência profissional na cozinha?</p>
+
+                    <label for="nao">Não</label>
+                    <input type="radio" name="experiencia" id="nao" value="nao">
+                    <label for="sim">SIM</label>
+                    <input type="radio" name="experiencia" id="sim" value="sim">
+                    <br> <br>
+
+
+                </div>
+
+                <div class="cadastro2">
+                    <p>Descreva sua experiência:</p>
+                    <textarea name="descricao" id="descricao"></textarea>
+                    <br><br><br>
+                    <p>Anexe seu curriculo</p>
+                    <input type="file" name="curriculo" id="curriculo">
+
+                </div>
+
+                <div class="botoes">
+                    <input type="submit" value="Enviar" id="enviar">
+                    <input type="reset" value="Apagar" id="apagar">
+
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <footer>
+
+        <img class="logocss" src="logo bottotine.jpg" alt="Restaurante logo">
+
+        <h1>Redes sociais</h1>
+
+
+        <a href="#"><img class="insta" src="instagram logo.webp" alt="instagram logo"></a>
+        <a href="#"><img class="zap" src="whatsapp logo 3.jpg" alt="whatsapp logo"></a>
+
+        <h2>Telefones</h2>
+        <p>(15) 997642020</p>
+        <p>(15) 997679888</p>
+
+    </footer>
+
+</body>
+
+</html>
